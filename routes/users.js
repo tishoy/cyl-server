@@ -12,8 +12,9 @@ router.post('/login', function (ctx, next) {
   }
   if (req.account === "tishoy" && req.password === "hantishoy123") {
     ctx.body = { code: 0, session: "tishoy_1_training" }
+  } else {
+    ctx.body = { code: 10001 }
   }
-  ctx.body = { code: 10001 }
 })
 
 router.post('/reset', function () {
@@ -22,14 +23,6 @@ router.post('/reset', function () {
   if (req.account == "tishoy") {
 
   }
-})
-
-router.get('/', function (ctx, next) {
-  ctx.body = 'this is a users response!'
-})
-
-router.get('/bar', function (ctx, next) {
-  ctx.body = 'this is a users/bar response'
 })
 
 

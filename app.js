@@ -10,6 +10,8 @@ const convert = require('koa-convert')
 
 const index = require('./routes/index')
 const users = require('./routes/users')
+const students = require('./routes/students')
+const enrolled = require('./routes/enrolled')
 
 // error handler
 onerror(app)
@@ -38,5 +40,7 @@ app.use(async (ctx, next) => {
 // routes
 app.use(index.routes(), index.allowedMethods())
 app.use(users.routes(), users.allowedMethods())
+app.use(students.routes(), students.allowedMethods())
+app.use(enrolled.routes(), enrolled.allowedMethods())
 
 module.exports = app

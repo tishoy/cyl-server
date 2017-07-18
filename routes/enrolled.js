@@ -1,6 +1,6 @@
 const router = require('koa-router')()
 
-router.prefix('/students')
+router.prefix('/enrolled')
 
 router.post('/post', async (ctx, next) => {
   console.log(ctx.request)
