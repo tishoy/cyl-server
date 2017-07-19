@@ -5,11 +5,26 @@ const Code = require('../code')
 router.prefix('/users')
 
 /**
+ * 用户名可用接口
+ * request {account:String, password:String, type:Int}
+ * response {code}
+ */
+router.post('/available', function (ctx, next) {
+  let req = ctx.request.body
+  console.log(ctx.request)
+  if (req.account === "tishoy" && req.password === "hantishoy123" && req.type === 1) {
+    ctx.body = { code: Code.LOGIC_SUCCESS, session: "tishoy_1_training" }
+  } else {
+    ctx.body = { code: 10001, session: "" }
+  }
+})
+
+/**
  * 注册接口
  * request {account:String, password:String, type:Int}
  * response {code}
  */
-router.post('/regist', function (ctx, next) {
+router.post('/register', function (ctx, next) {
   let req = ctx.request.body
   console.log(ctx.request)
   if (req.account === "tishoy" && req.password === "hantishoy123" && req.type === 1) {

@@ -9,7 +9,7 @@ router.prefix('/students')
  * request {session, student:JSON}
  * response {code}
  */
-router.post('/new', async (ctx, next) => {
+router.post('/insert', async (ctx, next) => {
   let req = ctx.request.body
   ctx.body = {
     code: Code.LOGIC_SUCCESS
@@ -21,7 +21,7 @@ router.post('/new', async (ctx, next) => {
  * request {session, id:Int}
  * response {code}
  */
-router.post('/delete', async (ctx, next) => {
+router.post('/remove', async (ctx, next) => {
   let req = ctx.request.body
   ctx.body = {
     code: Code.LOGIC_SUCCESS
@@ -57,7 +57,7 @@ router.post('/self', async (ctx, next) => {
  * request {session, id:Int, exp:JSON}
  * response {code}
  */
-router.post('/exp', async (ctx, next) => {
+router.post('/addexp', async (ctx, next) => {
   let req = ctx.request.body
   ctx.body = {
     code: Code.LOGIC_SUCCESS
@@ -69,7 +69,7 @@ router.post('/exp', async (ctx, next) => {
  * request {session, id:Int, exp_id:Int}
  * response {code}
  */
-router.post('/exp', async (ctx, next) => {
+router.post('/delexp', async (ctx, next) => {
   let req = ctx.request.body
   ctx.body = {
     code: Code.LOGIC_SUCCESS

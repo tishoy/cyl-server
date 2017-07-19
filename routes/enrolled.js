@@ -18,7 +18,7 @@ router.post('/enroll', async (ctx, next) => {
 
 /**
  * 同意安排
- * request {session, id:Int}
+ * request {sesion, id:Int}
  * response {code}
  */
 router.post('/agree', async (ctx, next) => {

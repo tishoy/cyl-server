@@ -5,18 +5,6 @@ const Code = require('../code')
 router.prefix('/exams')
 
 /**
- * 设立新考试
- * request {session, id:Int, exam:JSON}
- * response {code}
- */
-router.post('/new', async (ctx, next) => {
-  let req = ctx.request.body
-  ctx.body = {
-    code: Code.LOGIC_SUCCESS
-  }
-})
-
-/**
  * 安排考试
  * request {session, id:Int, exam:}
  * response {code}
@@ -41,7 +29,7 @@ router.post('/pass', async (ctx, next) => {
 })
 
 /**
- * 重置用户信息接口
+ * 重考试
  * request {session, id:Int, self:JSON}
  * response {code}
  */
@@ -53,7 +41,7 @@ router.post('/retry', async (ctx, next) => {
 })
 
 /**
- * 重置用户信息接口
+ * 给分
  * request {session, id:Int, self:JSON}
  * response {code}
  */
