@@ -1,18 +1,25 @@
 const router = require('koa-router')()
 
+const Code = require('../code')
+
 router.prefix('/enrolled')
 
-router.post('/post', async (ctx, next) => {
-  console.log(ctx.request)
-  console.log(ctx.request.body)
+router.post('/arrange', async (ctx, next) => {
+  let req = ctx.request.body
   ctx.body = {
     title: 'koa2 json'
   }
 })
 
-router.get('/json', async (ctx, next) => {
-  console.log(ctx.request)
-  console.log(ctx.request.body)
+router.post('/agree', async (ctx, next) => {
+  let req = ctx.request.body
+  ctx.body = {
+    title: 'koa2 json'
+  }
+})
+
+router.post('/refuse', async (ctx, next) => {
+  let req = ctx.request.body
   ctx.body = {
     title: 'koa2 json'
   }

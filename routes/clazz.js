@@ -2,11 +2,11 @@ const router = require('koa-router')()
 
 const Code = require('../code')
 
-router.prefix('/exams')
+router.prefix('/clazz')
 
 /**
- * 设立新考试
- * request {session, id:Int, exam:JSON}
+ * 设立新班级
+ * request {session, id:Int, clazz:JSON}
  * response {code}
  */
 router.post('/new', async (ctx, next) => {
