@@ -29,11 +29,11 @@ router.post('/examing', async (ctx, next) => {
 })
 
 /**
- * 重置用户信息接口
- * request {session, id:Int, self:JSON}
+ * 加入班级
+ * request {session, id:Int, clazz:Int}
  * response {code}
  */
-router.post('/pass', async (ctx, next) => {
+router.post('/entrance', async (ctx, next) => {
   let req = ctx.request.body
   ctx.body = {
     title: 'koa2 json'
@@ -41,35 +41,11 @@ router.post('/pass', async (ctx, next) => {
 })
 
 /**
- * 重置用户信息接口
- * request {session, id:Int, self:JSON}
+ * 退出班级
+ * request {session, id:Int, clazz:Int}
  * response {code}
  */
-router.post('/retry', async (ctx, next) => {
-  let req = ctx.request.body
-  ctx.body = {
-    title: 'koa2 json'
-  }
-})
-
-/**
- * 重置用户信息接口
- * request {session, id:Int, self:JSON}
- * response {code}
- */
-router.post('/score', async (ctx, next) => {
-  let req = ctx.request.body
-  ctx.body = {
-    title: 'koa2 json'
-  }
-})
-
-/**
- * 重置用户信息接口
- * request {session, id:Int, self:JSON}
- * response {code}
- */
-router.post('/over', async (ctx, next) => {
+router.post('/exit', async (ctx, next) => {
   let req = ctx.request.body
   ctx.body = {
     title: 'koa2 json'
