@@ -13,9 +13,34 @@ router.get('/test', async (ctx, next) => {
 router.get('/router', async (ctx, next) => {
   console.log(ctx.request)
   console.log(ctx.request.body)
+  let addr = "http://localhost:3008/"
   ctx.body = {
-    "users/login": "http://localhost:3008/users/login",
-    regist: "http://localhost:3008/users/regist"
+    "login": addr + "users/login",
+    "register": addr + "users/regist",
+    "available": addr + "users/available",
+    "reset": addr + "users/reset",
+    "detail": addr + "users/detail",
+
+    "insert": addr + "students/insert",
+    "remove": addr + "students/remove",
+    "base": addr + "students/base",
+    "self": addr + "students/self",
+    "addexp": addr + "students/addexp",
+    "delexp": addr + "students/delexp",
+
+    "examing": addr + "exams/examing",
+    "pass": addr + "exams/pass",
+    "retry": addr + "exams/retry",
+    "score": addr + "exams/score",
+    "over": addr + "exams/over",
+
+    "enroll": addr + "enrolled/enroll",
+    "agree": addr + "enrolled/agree",
+    "refuse": addr + "enrolled/refuse",
+
+    "new": addr + "clazz/new",
+    "entrance": addr + "clazz/entrance",
+    "exit": addr + "clazz/exit",
   }
 })
 

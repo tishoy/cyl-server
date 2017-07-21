@@ -16,17 +16,17 @@ router.post('/new', async (ctx, next) => {
   }
 })
 
-/**
- * 安排考试
- * request {session, id:Int, exam:}
- * response {code}
- */
-router.post('/examing', async (ctx, next) => {
-  let req = ctx.request.body
-  ctx.body = {
-    title: 'koa2 json'
-  }
-})
+// /**
+//  * 安排考试
+//  * request {session, id:Int, exam:}
+//  * response {code}
+//  */
+// router.post('/examing', async (ctx, next) => {
+//   let req = ctx.request.body
+//   ctx.body = {
+//     title: 'koa2 json'
+//   }
+// })
 
 /**
  * 加入班级
