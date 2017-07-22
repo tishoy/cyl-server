@@ -10,7 +10,7 @@ router.get('/test', async (ctx, next) => {
   ctx.body = 'Oh It’s Working!'
 })
 
-router.get('/router', async (ctx, next) => {
+router.post('/routes', async (ctx, next) => {
   console.log(ctx.request)
   console.log(ctx.request.body)
   let addr = "http://localhost:3008/"
