@@ -30,7 +30,7 @@ router.post('/register', function (ctx, next) {
   if (req.account === "tishoy" && req.password === "hantishoy123" && req.type === 1) {
     ctx.body = { code: Code.LOGIC_SUCCESS, session: "tishoy_1_training" }
   } else {
-    ctx.body = { code: 10001, session: "" }
+    ctx.body = { code: 10001, session: "", students: [] }
   }
 })
 
