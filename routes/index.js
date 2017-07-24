@@ -19,7 +19,7 @@ router.post('/routes', async (ctx, next) => {
     "register": addr + "users/regist",
     "available": addr + "users/available",
     "reset": addr + "users/reset",
-    "detail": addr + "users/detail",
+    "info": addr + "users/info",
 
     "insert": addr + "students/insert",
     "remove": addr + "students/remove",
@@ -41,6 +41,8 @@ router.post('/routes', async (ctx, next) => {
     "new": addr + "clazz/new",
     "entrance": addr + "clazz/entrance",
     "exit": addr + "clazz/exit",
+
+    "query": addr + "query",
   }
 })
 
