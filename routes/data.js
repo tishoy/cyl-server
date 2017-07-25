@@ -1,4 +1,4 @@
-export default data = {
+module.exports = exports = data = {
     base: { name: "北京安果科技有限公司" },
     finance: {},
     express: {},
