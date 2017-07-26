@@ -14,6 +14,7 @@ const exams = require('./routes/exams')
 const students = require('./routes/students')
 const enrolled = require('./routes/enrolled')
 const clazz = require('./routes/clazz')
+const query = require('./routes/query')
 
 // error handler
 onerror(app)
@@ -46,5 +47,6 @@ app.use(exams.routes(), exams.allowedMethods())
 app.use(students.routes(), students.allowedMethods())
 app.use(enrolled.routes(), enrolled.allowedMethods())
 app.use(clazz.routes(), clazz.allowedMethods())
+app.use(query.routes(), query.allowedMethods())
 
 module.exports = app
