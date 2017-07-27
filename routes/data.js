@@ -6,8 +6,9 @@ module.exports = exports = data = {
     clazz: [],
     student: [
         {
+            "id": 0,
             "base_info": {
-                "name": "tishoy",
+                "name": "tishoy1",
                 "tel": "13810100010",
                 "email": "tishoy",
                 "city": "北京",
@@ -67,6 +68,294 @@ module.exports = exports = data = {
                 },
                 "passed": {
                     "status": 1,
+                    "score": 96,
+                    "time": 1500262255
+                },
+                "retry": {
+                    "status": 1,
+                    "time": 1500262255
+                }
+            }
+        },
+        {
+            "id": 1,
+            "base_info": {
+                "name": "tishoy1",
+                "tel": "13810100010",
+                "email": "tishoy",
+                "city": "北京",
+                "level": "中级",
+                "company": "中软"
+            },
+            "personal_info": {
+                "licence": "232700198902230021",
+                "edu": "QH University",
+                "working_time": "5 year",
+                "total_amount": "",
+                "soft_amount": ""
+            },
+            "proj_exp": [
+                {
+                    "id": "",
+                    "name": "",
+                    "time": "",
+                    "actor": "",
+                    "total_amount": "",
+                    "soft_amount": ""
+                },
+                {
+                    "id": "",
+                    "name": "",
+                    "time": "",
+                    "actor": "",
+                    "total_amount": "",
+                    "soft_amount": ""
+                },
+                {
+                    "id": "",
+                    "name": "",
+                    "time": "",
+                    "actor": "",
+                    "total_amount": "",
+                    "soft_amount": ""
+                }
+            ],
+            // 状态 0 未进行 1 进行中 2 进行结束
+            "status": {
+                "enrolled": {
+                    "status": 1,
+                    "time": 1500262255
+                },
+                "arranged": {
+                    "status": 1,
+                    "time": 1500262255
+                },
+                "agreed": {
+                    "status": 1,
+                    "time": 1500262255
+                },
+                "examing": {
+                    "status": 1,
+                    "time": 1500262255
+                },
+                "passed": {
+                    "status": 1,
+                    "score": 96,
+                    "time": 1500262255
+                },
+                "retry": {
+                    "status": 1,
+                    "time": 1500262255
+                }
+            }
+        },
+        {
+            "id": 2,
+            "base_info": {
+                "name": "tishoy1",
+                "tel": "13810100010",
+                "email": "tishoy",
+                "city": "北京",
+                "level": "中级",
+                "company": "中软"
+            },
+            "personal_info": {
+                "licence": "232700198902230021",
+                "edu": "QH University",
+                "working_time": "5 year",
+                "total_amount": "",
+                "soft_amount": ""
+            },
+            "proj_exp": [
+                {
+                    "id": "",
+                    "name": "",
+                    "time": "",
+                    "actor": "",
+                    "total_amount": "",
+                    "soft_amount": ""
+                },
+                {
+                    "id": "",
+                    "name": "",
+                    "time": "",
+                    "actor": "",
+                    "total_amount": "",
+                    "soft_amount": ""
+                },
+                {
+                    "id": "",
+                    "name": "",
+                    "time": "",
+                    "actor": "",
+                    "total_amount": "",
+                    "soft_amount": ""
+                }
+            ],
+            // 状态 0 未进行 1 进行中 2 进行结束
+            "status": {
+                "enrolled": {
+                    "status": 1,
+                    "time": 1500262255
+                },
+                "arranged": {
+                    "status": 0,
+                    "time": 1500262255
+                },
+                "agreed": {
+                    "status": 1,
+                    "time": 1500262255
+                },
+                "examing": {
+                    "status": 3,
+                    "time": 1500262255
+                },
+                "passed": {
+                    "status": 2,
+                    "score": 96,
+                    "time": 1500262255
+                },
+                "retry": {
+                    "status": 1,
+                    "time": 1500262255
+                }
+            }
+        },
+        {
+            "id": 3,
+            "base_info": {
+                "name": "tishoy1",
+                "tel": "13810100010",
+                "email": "tishoy",
+                "city": "北京",
+                "level": "中级",
+                "company": "中软"
+            },
+            "personal_info": {
+                "licence": "232700198902230021",
+                "edu": "QH University",
+                "working_time": "5 year",
+                "total_amount": "",
+                "soft_amount": ""
+            },
+            "proj_exp": [
+                {
+                    "id": "",
+                    "name": "",
+                    "time": "",
+                    "actor": "",
+                    "total_amount": "",
+                    "soft_amount": ""
+                },
+                {
+                    "id": "",
+                    "name": "",
+                    "time": "",
+                    "actor": "",
+                    "total_amount": "",
+                    "soft_amount": ""
+                },
+                {
+                    "id": "",
+                    "name": "",
+                    "time": "",
+                    "actor": "",
+                    "total_amount": "",
+                    "soft_amount": ""
+                }
+            ],
+            // 状态 0 未进行 1 进行中 2 进行结束
+            "status": {
+                "enrolled": {
+                    "status": 0,
+                    "time": 1500262255
+                },
+                "arranged": {
+                    "status": 1,
+                    "time": 1500262255
+                },
+                "agreed": {
+                    "status": 1,
+                    "time": 1500262255
+                },
+                "examing": {
+                    "status": 3,
+                    "time": 1500262255
+                },
+                "passed": {
+                    "status": 1,
+                    "score": 96,
+                    "time": 1500262255
+                },
+                "retry": {
+                    "status": 1,
+                    "time": 1500262255
+                }
+            }
+        },
+        {
+            "id": 4,
+            "base_info": {
+                "name": "tishoy1",
+                "tel": "13810100010",
+                "email": "tishoy",
+                "city": "北京",
+                "level": "中级",
+                "company": "中软"
+            },
+            "personal_info": {
+                "licence": "232700198902230021",
+                "edu": "QH University",
+                "working_time": "5 year",
+                "total_amount": "",
+                "soft_amount": ""
+            },
+            "proj_exp": [
+                {
+                    "id": "",
+                    "name": "",
+                    "time": "",
+                    "actor": "",
+                    "total_amount": "",
+                    "soft_amount": ""
+                },
+                {
+                    "id": "",
+                    "name": "",
+                    "time": "",
+                    "actor": "",
+                    "total_amount": "",
+                    "soft_amount": ""
+                },
+                {
+                    "id": "",
+                    "name": "",
+                    "time": "",
+                    "actor": "",
+                    "total_amount": "",
+                    "soft_amount": ""
+                }
+            ],
+            // 状态 0 未进行 1 进行中 2 进行结束
+            "status": {
+                "enrolled": {
+                    "status": 1,
+                    "time": 1500262255
+                },
+                "arranged": {
+                    "status": 1,
+                    "time": 1500262255
+                },
+                "agreed": {
+                    "status": 1,
+                    "time": 1500262255
+                },
+                "examing": {
+                    "status": 1,
+                    "time": 1500262255
+                },
+                "passed": {
+                    "status": 0,
                     "score": 96,
                     "time": 1500262255
                 },
