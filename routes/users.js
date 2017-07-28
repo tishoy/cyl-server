@@ -58,7 +58,7 @@ router.post('/login', function (ctx, next) {
  * request {session, base:1, finance:1, express:1, admin:1}
  * response {code, data:JSON}
  */
-router.post('/info', function () {
+router.post('/info', function (ctx, next) {
   let req = ctx.request.body
   console.log(ctx.request)
   if (req.base !== undefined) {
@@ -85,7 +85,7 @@ router.post('/info', function () {
  * request {session, base:JSON, finance:JSON, express:JSON, admin:JSON}
  * response {code}
  */
-router.post('/reset', function () {
+router.post('/reset', function (ctx, next) {
   let req = ctx.request.body
   console.log(ctx.request)
   if (req.base !== undefined) {
