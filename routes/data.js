@@ -1,8 +1,31 @@
 module.exports = exports = data = {
-    base: { name: "北京安果科技有限公司" },
-    finance: {},
-    express: {},
-    admin: {},
+    base: {
+        company_name: "北京安果科技有限公司",
+        province: "省市地区",
+        qualification: "企业资质"
+    },
+    finance: {
+        name: "公司全称",
+        taxpayer_identify: "纳税人识别号",
+        bank: "开户银行",
+        bank_account: "开户行账号",
+        address: "地址",
+        tel: "电话"
+    },
+    express: {
+        code: "邮编",
+        express_address: "收件地址",
+        address: "详细地址",
+        express_person: "收件人",
+        contact_way: "联系方式"
+    },
+    admin: {
+        account: "用户名",
+        password: "密码",
+        name: "管理员姓名",
+        tel: "手机",
+        email: "邮箱"
+    },
     clazz: [],
     student: [
         {
@@ -11,8 +34,8 @@ module.exports = exports = data = {
                 "name": "tishoy1",
                 "tel": "13810100010",
                 "email": "tishoy",
-                "city": "北京",
-                "level": "中级",
+                "city": 0,
+                "level": 2,
                 "company": "中软"
             },
             "personal_info": {
@@ -83,8 +106,8 @@ module.exports = exports = data = {
                 "name": "tishoy1",
                 "tel": "13810100010",
                 "email": "tishoy",
-                "city": "北京",
-                "level": "中级",
+                "city": 0,
+                "level": 2,
                 "company": "中软"
             },
             "personal_info": {
@@ -155,8 +178,8 @@ module.exports = exports = data = {
                 "name": "tishoy1",
                 "tel": "13810100010",
                 "email": "tishoy",
-                "city": "北京",
-                "level": "中级",
+                "city": 0,
+                "level": 2,
                 "company": "中软"
             },
             "personal_info": {
@@ -227,8 +250,8 @@ module.exports = exports = data = {
                 "name": "tishoy1",
                 "tel": "13810100010",
                 "email": "tishoy",
-                "city": "北京",
-                "level": "中级",
+                "city": 0,
+                "level": 2,
                 "company": "中软"
             },
             "personal_info": {
@@ -299,8 +322,8 @@ module.exports = exports = data = {
                 "name": "tishoy1",
                 "tel": "13810100010",
                 "email": "tishoy",
-                "city": "北京",
-                "level": "中级",
+                "city": 0,
+                "level": 2,
                 "company": "中软"
             },
             "personal_info": {
