@@ -26,7 +26,28 @@ module.exports = exports = data = {
         tel: "手机",
         email: "邮箱"
     },
-    clazz: [],
+    clazz: [
+        {
+            id: 0,
+            city: 1,
+            level: 2
+        },
+        {
+            id: 0,
+            city: 1,
+            level: 2
+        },
+        {
+            id: 0,
+            city: 1,
+            level: 2
+        },
+        {
+            id: 0,
+            city: 1,
+            level: 2
+        }
+    ],
     student: [
         {
             "id": 0,
@@ -74,11 +95,11 @@ module.exports = exports = data = {
             // 状态 0 未进行 1 进行中 2 进行结束
             "status": {
                 "enrolled": {
-                    "status": 1,
+                    "status": 0,
                     "time": 1500262255
                 },
                 "arranged": {
-                    "status": 1,
+                    "status": 2,
                     "time": 1500262255
                 },
                 "agreed": {
