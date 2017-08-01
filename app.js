@@ -7,6 +7,7 @@ const bodyparser = require('koa-bodyparser')
 const logger = require('koa-logger')
 const cors = require('koa-cors')
 const convert = require('koa-convert')
+const mongo = require('koa-mongo')
 
 const index = require('./routes/index')
 const users = require('./routes/users')
@@ -27,6 +28,7 @@ app.use(convert(cors()))
 app.use(json())
 app.use(logger())
 app.use(require('koa-static')(__dirname + '/public'))
+app.use(mongo())
 
 app.use(views(__dirname + '/views', {
   extension: 'pug'
