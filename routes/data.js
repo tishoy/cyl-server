@@ -103,7 +103,7 @@ module.exports = exports = data = {
                     "time": 1500262255
                 },
                 "agreed": {
-                    "status": 1,
+                    "status": 0,
                     "time": 1500262255
                 },
                 "examing": {
@@ -175,7 +175,7 @@ module.exports = exports = data = {
                     "time": 1500262255
                 },
                 "agreed": {
-                    "status": 1,
+                    "status": 0,
                     "time": 1500262255
                 },
                 "examing": {
@@ -247,7 +247,7 @@ module.exports = exports = data = {
                     "time": 1500262255
                 },
                 "agreed": {
-                    "status": 1,
+                    "status": 0,
                     "time": 1500262255
                 },
                 "examing": {

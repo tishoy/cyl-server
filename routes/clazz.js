@@ -36,7 +36,7 @@ router.post('/new', async (ctx, next) => {
 router.post('/entrance', async (ctx, next) => {
   let req = ctx.request.body
   ctx.body = {
-    title: 'koa2 json'
+    code: Code.LOGIC_SUCCESS
   }
 })
 
@@ -48,7 +48,7 @@ router.post('/entrance', async (ctx, next) => {
 router.post('/exit', async (ctx, next) => {
   let req = ctx.request.body
   ctx.body = {
-    title: 'koa2 json'
+    code: Code.LOGIC_SUCCESS
   }
 })
 

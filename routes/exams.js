@@ -12,7 +12,7 @@ router.prefix('/exams')
 router.post('/examing', async (ctx, next) => {
   let req = ctx.request.body
   ctx.body = {
-    title: 'koa2 json'
+    code: Code.LOGIC_SUCCESS
   }
 })
 
@@ -24,7 +24,7 @@ router.post('/examing', async (ctx, next) => {
 router.post('/pass', async (ctx, next) => {
   let req = ctx.request.body
   ctx.body = {
-    title: 'koa2 json'
+    code: Code.LOGIC_SUCCESS
   }
 })
 
@@ -36,7 +36,7 @@ router.post('/pass', async (ctx, next) => {
 router.post('/retry', async (ctx, next) => {
   let req = ctx.request.body
   ctx.body = {
-    title: 'koa2 json'
+    code: Code.LOGIC_SUCCESS
   }
 })
 
@@ -48,7 +48,7 @@ router.post('/retry', async (ctx, next) => {
 router.post('/score', async (ctx, next) => {
   let req = ctx.request.body
   ctx.body = {
-    title: 'koa2 json'
+    code: Code.LOGIC_SUCCESS
   }
 })
 
@@ -60,7 +60,7 @@ router.post('/score', async (ctx, next) => {
 router.post('/over', async (ctx, next) => {
   let req = ctx.request.body
   ctx.body = {
-    title: 'koa2 json'
+    code: Code.LOGIC_SUCCESS
   }
 })
 

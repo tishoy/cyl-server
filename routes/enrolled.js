@@ -12,7 +12,7 @@ router.prefix('/enrolled')
 router.post('/enroll', async (ctx, next) => {
   let req = ctx.request.body
   ctx.body = {
-    title: 'koa2 json'
+    code: Code.LOGIC_SUCCESS,
   }
 })
 
@@ -24,7 +24,7 @@ router.post('/enroll', async (ctx, next) => {
 router.post('/agree', async (ctx, next) => {
   let req = ctx.request.body
   ctx.body = {
-    title: 'koa2 json'
+    code: Code.LOGIC_SUCCESS,
   }
 })
 
@@ -36,7 +36,7 @@ router.post('/agree', async (ctx, next) => {
 router.post('/refuse', async (ctx, next) => {
   let req = ctx.request.body
   ctx.body = {
-    title: 'koa2 json'
+    code: Code.LOGIC_SUCCESS,
   }
 })
 
