@@ -33,17 +33,17 @@ module.exports = exports = data = {
             level: 2
         },
         {
-            id: 0,
+            id: 1,
             city: 1,
             level: 2
         },
         {
-            id: 0,
+            id: 2,
             city: 1,
             level: 2
         },
         {
-            id: 0,
+            id: 3,
             city: 1,
             level: 2
         }
