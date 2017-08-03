@@ -68,29 +68,14 @@ module.exports = exports = data = {
             },
             "proj_exp": [
                 {
-                    "id": "",
-                    "name": "",
-                    "time": "",
-                    "actor": "",
-                    "total_amount": "",
-                    "soft_amount": ""
+                    "id": "1",
+                    "name": "nonono",
+                    "time": "范德萨",
+                    "actor": "范德萨",
+                    "total_amount": "范德萨",
+                    "soft_amount": "放大"
                 },
-                {
-                    "id": "",
-                    "name": "",
-                    "time": "",
-                    "actor": "",
-                    "total_amount": "",
-                    "soft_amount": ""
-                },
-                {
-                    "id": "",
-                    "name": "",
-                    "time": "",
-                    "actor": "",
-                    "total_amount": "",
-                    "soft_amount": ""
-                }
+
             ],
             // 状态 0 未进行 1 进行中 2 进行结束
             "status": {
@@ -140,28 +125,28 @@ module.exports = exports = data = {
             },
             "proj_exp": [
                 {
-                    "id": "",
-                    "name": "",
+                    "id": "0",
+                    "name": "啪啪啪",
                     "time": "",
                     "actor": "",
                     "total_amount": "",
                     "soft_amount": ""
                 },
                 {
-                    "id": "",
-                    "name": "",
-                    "time": "",
-                    "actor": "",
-                    "total_amount": "",
-                    "soft_amount": ""
+                    "id": "1",
+                    "name": "哇哇哇",
+                    "time": "14564",
+                    "actor": "范德萨",
+                    "total_amount": "111",
+                    "soft_amount": "555"
                 },
                 {
-                    "id": "",
-                    "name": "",
-                    "time": "",
-                    "actor": "",
-                    "total_amount": "",
-                    "soft_amount": ""
+                    "id": "2",
+                    "name": "啦啦啦",
+                    "time": "222",
+                    "actor": "333",
+                    "total_amount": "444",
+                    "soft_amount": "555"
                 }
             ],
             // 状态 0 未进行 1 进行中 2 进行结束
@@ -212,31 +197,22 @@ module.exports = exports = data = {
             },
             "proj_exp": [
                 {
-                    "id": "",
-                    "name": "",
-                    "time": "",
-                    "actor": "",
-                    "total_amount": "",
-                    "soft_amount": ""
+                    "id": "0",
+                    "name": "啧啧啧",
+                    "time": "19890226",
+                    "actor": "恩",
+                    "total_amount": "123",
+                    "soft_amount": "321"
                 },
                 {
-                    "id": "",
-                    "name": "",
-                    "time": "",
-                    "actor": "",
-                    "total_amount": "",
-                    "soft_amount": ""
-                },
-                {
-                    "id": "",
-                    "name": "",
-                    "time": "",
-                    "actor": "",
-                    "total_amount": "",
-                    "soft_amount": ""
+                    "id": "2",
+                    "name": "嘤嘤嘤",
+                    "time": "321123",
+                    "actor": "哭",
+                    "total_amount": "123",
+                    "soft_amount": "321"
                 }
             ],
-            // 状态 0 未进行 1 进行中 2 进行结束
             "status": {
                 "enrolled": {
                     "status": 1,
@@ -284,31 +260,30 @@ module.exports = exports = data = {
             },
             "proj_exp": [
                 {
-                    "id": "",
-                    "name": "",
-                    "time": "",
-                    "actor": "",
-                    "total_amount": "",
-                    "soft_amount": ""
+                    "id": "0",
+                    "name": "哈哈哈",
+                    "time": "123456",
+                    "actor": "笑",
+                    "total_amount": "123",
+                    "soft_amount": "432"
                 },
                 {
-                    "id": "",
-                    "name": "",
-                    "time": "",
-                    "actor": "",
-                    "total_amount": "",
-                    "soft_amount": ""
+                    "id": "1",
+                    "name": "呜呜呜",
+                    "time": "123321",
+                    "actor": "哭",
+                    "total_amount": "123",
+                    "soft_amount": "321"
                 },
                 {
-                    "id": "",
-                    "name": "",
-                    "time": "",
-                    "actor": "",
-                    "total_amount": "",
-                    "soft_amount": ""
+                    "id": "2",
+                    "name": "嘤嘤嘤",
+                    "time": "321123",
+                    "actor": "哭",
+                    "total_amount": "123",
+                    "soft_amount": "321"
                 }
             ],
-            // 状态 0 未进行 1 进行中 2 进行结束
             "status": {
                 "enrolled": {
                     "status": 0,
@@ -348,37 +323,29 @@ module.exports = exports = data = {
                 "company": "中软"
             },
             "personal_info": {
-                "licence": "232700198902230021",
-                "edu": "QH University",
-                "working_time": "5 year",
-                "total_amount": "",
-                "soft_amount": ""
+                "licence": "232700198902221",
+                "edu": "BD University",
+                "working_time": "4 year",
+                "total_amount": "10000",
+                "soft_amount": "1000"
             },
             "proj_exp": [
                 {
-                    "id": "",
-                    "name": "",
-                    "time": "",
-                    "actor": "",
-                    "total_amount": "",
-                    "soft_amount": ""
-                },
+                    "id": "0",
+                    "name": "哈哈哈",
+                    "time": "123456",
+                    "actor": "笑",
+                    "total_amount": "123",
+                    "soft_amount": "432"
+                }, 
                 {
-                    "id": "",
-                    "name": "",
-                    "time": "",
-                    "actor": "",
-                    "total_amount": "",
-                    "soft_amount": ""
+                    "id": "1",
+                    "name": "1哈哈哈",
+                    "time": "123456",
+                    "actor": "笑",
+                    "total_amount": "123",
+                    "soft_amount": "432"
                 },
-                {
-                    "id": "",
-                    "name": "",
-                    "time": "",
-                    "actor": "",
-                    "total_amount": "",
-                    "soft_amount": ""
-                }
             ],
             // 状态 0 未进行 1 进行中 2 进行结束
             "status": {
