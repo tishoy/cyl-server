@@ -47,7 +47,11 @@ router.post('/login', function (ctx, next) {
   console.log(ctx.request)
   if (req.account === "tishoy" && req.password === "hantishoy123" && req.type === 1) {
     ctx.body = {
-      code: Code.LOGIC_SUCCESS, session: "tishoy_1_training", data: ALL_DATA
+      code: Code.LOGIC_SUCCESS, session: "tishoy_1_com", data: ALL_DATA
+    }
+  } else if (req.account === "tishoy" && req.password === "hantishoy123" && req.type === 2) {
+    ctx.body = {
+      code: Code.LOGIC_SUCCESS, session: "tishoy_1_org", data: ALL_DATA
     }
   } else {
     ctx.body = { code: 10001, session: "", students: [] }
